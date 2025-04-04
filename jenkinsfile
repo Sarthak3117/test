@@ -15,7 +15,7 @@ pipeline {
 
         stage('Setup Python') {
             steps {
-                bat 'python --version'
+                bat 'C:\Users\sarth\AppData\Local\Programs\Python\Python312 --version'
             }
         }
 
